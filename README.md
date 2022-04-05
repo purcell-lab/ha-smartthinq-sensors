@@ -315,6 +315,15 @@ type: vertical-stack
 
 </details>
 
+## Control via Home Assistant Service Calls
+
+The smart things integration also allows some Home Assistance Service Calls for certain devices, which can be called from automations or manually from Developers Tools:Services.
+
+| Service Call | Description |
+| :-- | :-- |
+| smarthinq_sensors.wakeup | SmartThinQ LGE Sensors: WakeUp | 
+| smarthingq_sensors.remote_start | SmartThinQ LGE Sensors: Remote Start |
+
 ## Be nice!
 If you like the component, why don't you support me by buying me a coffee?
 It would certainly motivate me to further improve this work.
